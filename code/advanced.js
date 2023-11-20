@@ -31,8 +31,17 @@ unitedKingdom = [
 /**
  * Q1. Add some tourist attractions to England
  */
+
+let england = unitedKingdom.find((country) => country.name === "England");
+// console.log(england);
+
+// unitedKingdom.stream().filter(country -> name.equals)
 unitedKingdom[1].touristAttractions = ["Lake district", "Big Ben", "London Eye", "Tower Bridge", "Blackool tower"];
 england = unitedKingdom[1];
+
+// var result = jsObjects.filter(obj => {
+//   return obj.b === 6
+// })
 
 // console.log(england);
 
@@ -57,6 +66,8 @@ northernIrelandKeys = Object.keys(unitedKingdom[3]);
  */
 scotland = unitedKingdom[0];
 northernIreland = unitedKingdom[3];
+
+
 
 if (scotland.population > england.population){
   console.log("Scotland's population is the biggest")
